@@ -1,6 +1,6 @@
 <?php
 /**
- * 2Checkout
+ * TwoCheckout
  *
  * The 2Checkout API documentation can be found at:
  * https://www.2checkout.com/documentation/api/
@@ -14,11 +14,7 @@
  * Configure 2Checkout Account->User Management Settings as follows (for API access):
  *      Grant a user access to the APi and "API Updating"
  *
- * @package blesta
- * @subpackage blesta.components.gateways._2checkout
- * @copyright Copyright (c) 2010, Phillips Data, Inc.
- * @license http://www.blesta.com/license/ The Blesta License Agreement
- * @link http://www.blesta.com/ Blesta
+ * @package 2checkout-inline-checkout
  */
 class Twocheckout extends NonmerchantGateway
 {
@@ -37,11 +33,11 @@ class Twocheckout extends NonmerchantGateway
     /**
      * @var string The URL to post payments to
      */
-    private $_2checkout_url = 'https://sandbox.2checkout.com/checkout/purchase';
+    private $_2checkout_url = 'https://sandbox.2checkout.com/checkout/purchase'; //change it for live capture
     /**
      * @var string The URL to signup
      */
-    private static $signup_url = 'https://www.2checkout.com/referral?r=47bb7d9a74';
+    private static $signup_url = 'https://www.2checkout.com/;
     /**
      * @var string The URL to post refunds to
      */
