@@ -18,4 +18,6 @@ For more read 2co documentation https://www.2checkout.com/documentation/checkout
 
 ## Preview!
 <p align="center">
+<a href='https://postimg.cc/F1j1FhKr' target='_blank'><img src='https://i.postimg.cc/59rz30dC/2019-01-19-08-06-15-Client-1502-Confirm-Payment-Nelsahost-web.png' border='0' alt='2019-01-19-08-06-15-Client-1502-Confirm-Payment-Nelsahost-web'/></a></p>  
+  <p align="center">
 <a href='https://postimg.cc/q6CcGxSK' target='_blank'><img src='https://i.postimg.cc/wMwWgWkw/2018-12-15-00-42-15.png' border='0' alt='2018-12-15-00-42-15'/></a></p>
