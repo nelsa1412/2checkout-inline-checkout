@@ -1,0 +1,6 @@
+There are one thing you have to do before you can start live transactions.
+SANDBOX url(test mode) is hard coded in to gateway because new 2checkout platform doesn't allow test mode flag.So make sure:
+1.Users who use new 2checkout account,you can use sandbox mode right now ,after installation configure 2checkout settings and ignore test mode checkbox(leave it unselected).When you decide to go live,just open twocheckout.php file in gateway root folder and  find this line of code(first 15 lines of code)
+ private $_2checkout_url = 'https://sandbox.2checkout.com/checkout/purchase'; //when you find it just change to this url https://www.2checkout.com/checkout/purchase and you are ready.
+2.Users who own old 2checkout accounts will have to change  url,just as desvribed above,and they will control test/live mode like they did with official 2checkout gateway,and that is testmode checkbox in gateway settings
+

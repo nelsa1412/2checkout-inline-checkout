@@ -1,0 +1,9 @@
+{
+    "name": "blesta/twocheckout",
+    "description": "2Checkout-payment-api",
+    "license": "proprietary",
+    "type": "blesta-gateway-nonmerchant",
+    "require": {
+        "blesta/composer-installer": "~1.0"
+    }
+}
